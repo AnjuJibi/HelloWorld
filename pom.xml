@@ -43,20 +43,20 @@
 				 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
                 <version>7.1.1.Final</version>
-				<!-- <executions>
+				<executions>
 				<execution>
 				<phase>install</phase>
 				<goals>
 				<goal>deploy</goal>
 				</goals>
-				<configuration>
+				<!-- <configuration>
 				<hostname>localhost</hostname>
 				<port>9999</port>
 				<username>veera</username>
 				<password>welcome</password>
-				</configuration>
+				</configuration> -->
 				</execution>
-				</executions> -->
+				</executions>
 	</plugin>
     </plugins>
     <finalName>helloworld</finalName>
