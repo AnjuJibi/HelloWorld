@@ -19,8 +19,7 @@ public class HelloWorldController {
  public String hello(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
   
    model.addAttribute("name", name);
-   
-   //returns the view name
+      //returns the view name
    return "helloworld";
 
  }
